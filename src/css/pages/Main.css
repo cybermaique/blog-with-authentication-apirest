@@ -1,0 +1,221 @@
+:root {
+  --cor00: #f8f7f7;
+  --cor01: #77ffc0;
+  --cor02: #30255f;
+  --cor03: #ff4081;
+  --cor04: #514869;
+  --cor05: #f8f7f7;
+  --cor06: #f0ffff94;
+  --cor07: #ff77a5;
+  --cor08: #201b2c;
+
+  --corsombra: #00000056;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top right, black, var(--cor08));
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top right, black, var(--cor08));
+}
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  border-width: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 60%;
+  background-color: var(--cor02);
+}
+
+.content-container {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.feed-container {
+  width: 92%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border-color: var(--cor03);
+  padding: 10px;
+}
+
+.user-name {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.feed-tittle {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.feed-content {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.post-container {
+  margin-top: 50px;
+  border-radius: 15px;
+  border-width: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 60%;
+  height: 300px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor02);
+}
+
+.notice-feedback {
+  display: none;
+  margin-top: 10px;
+  padding-left: 97px;
+  font-size: 12px;
+  color: white;
+  margin-left: -80%;
+}
+
+.invalid-feedback {
+  display: none;
+  margin-top: -2px;
+  font-size: 12px;
+  color: #f94687;
+  margin-left: -75%;
+}
+
+.form-control-post {
+  display: block;
+  align-items: center;
+  margin-top: 20px;
+  width: 86%;
+  height: 100px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--cor08);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: solid 1px;
+  border-radius: 18px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  resize: none;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--cor00);
+  margin-top: 40px;
+  margin-right: 59%;
+}
+
+.feed-title2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--cor03);
+}
+
+.feed-title-container {
+  margin-top: 40px;
+}
+
+.btn-post {
+  width: 150px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: var(--cor03);
+  color: black;
+  border: none;
+  font-weight: 800;
+  letter-spacing: 3px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  color: var(--cor00);
+  transition: 0.3s;
+}
+
+.btn-post:active {
+  opacity: 0.33;
+}
+
+.line {
+  border: 1px solid;
+  border-color: white;
+  align-self: center;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 2.5%;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: var(--cor03);
+  border-radius: 5px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeecec;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.form-control-tittle {
+  display: block;
+  width: 40%;
+  height: 14px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--cor08);
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid #f0f1f5;
+  border-radius: 12px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  resize: none;
+  margin-right: -7%;
+}
+
+.input-default-tittle {
+  height: 25px;
+  border-radius: 15px;
+  border: solid 1px;
+  margin-top: 25px;
+  margin-left: -53%;
+}
